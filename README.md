@@ -10,7 +10,10 @@
 *This project uses data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. A variety of descriptive statistics comparing system usage between three large cities - Chicago, New York City, and Washington, DC is computed in Python, based on parameters set by user inputs.*
 
 ### Files used
-Include the files used
+- chicago.csv
+- new_york_city.csv
+- washington.csv
+These files are stored in a local repository. 
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
