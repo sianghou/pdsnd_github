@@ -7,7 +7,7 @@
 **Bikeshare Data Exploration App**
 
 ### Description
-Describe what your project is about and what it does
+*This project uses data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. A variety of descriptive statistics comparing system usage between three large cities - Chicago, New York City, and Washington, DC is computed in Python, based on parameters set by user inputs.*
 
 ### Files used
 Include the files used
