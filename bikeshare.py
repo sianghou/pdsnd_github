@@ -202,19 +202,19 @@ def main():
     # display raw data
         view_data = input('\nWould you like to view individual trip data? Enter yes or no.\n')
         index = 0
-        while view_data.lower() == 'yes':
+        while view_data.lower()[0] == 'y':
             print(df.iloc[index:(index+5)])
             index += 5
             view_data = input('\nWould you like to view individual trip data? Enter yes or no.\n')
             if index > len(df):
                 print('\nNo more data to display.\n')
                 break
-            elif view_data.lower() != 'yes':
+            elif view_data.lower()[0] != 'y':
                 break
     
     # bring user back to start of programme
         restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        if restart.lower()[0] != 'y':
             break
 
 
